@@ -1,0 +1,11 @@
+0 -> Walk
+1 -> FoG
+2 -> PreFoG
+
+Individual Patient Analysis
+
+Varying features from 5-45
+Achieving relatively high F1 value - 83% - compared to the research paper - 56%
+Avg value also higher
+Size of Walk = 1.5 * (size of FoG)                           to avoid over representation of one class
+ 

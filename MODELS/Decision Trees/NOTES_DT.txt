@@ -1,0 +1,294 @@
+Model - 1:
+
+Features:
+
+Freezing Index _A_F  	_A_V	_A_L	(136,137,138)
+Variance       _A_F			(7)
+STD	      _A_F			(128)
+Energy	       _A_F  	_A_V	_A_L   (154, 155, 156)	 Mean of these 3 (AAE)
+
+
+size_of_walk = 1.5 * size of fog
+Accuracy_score: 0.707
+
+Model Used: Decision Trees
+
+		Precision - 0.64356
+		Recall - 0.631067
+		F1-score - 0.63725
+
+-------------------------------------------------------------------------------------------------------
+
+Model - 2:
+
+Features:
+
+RMS_A_F					6
+Variance_A_F				7
+Range_A_F				15
+Min_A_F					1
+STD_A_F					8
+
+Varaince_A_V				22
+Range_A_V				30
+RMS_A_V					21
+
+Variance_A_L				37
+
+Energy	       _A_F  	_A_V	_A_L   (154, 155, 156)	 Mean of these 3 (AAE)
+
+
+
+size_of_walk = 1.5 * size of fog
+
+Model Used: Decision Trees
+Acuuracy_Score: 0.7771
+
+The features are normalized:-
+
+		Precision: 0.9258
+		Recall: 0.79023
+		F1-score: 0.852669
+
+
+If features are not normalized:-
+		
+		Precision: 0.9644513
+		Recall: 0.79087
+		F1-score: 0.8690807
+
+------------------------------------------------------------------------------------------------------
+
+Model - 3:
+
+Features:
+
+Min_A_F					1
+Max_A_F					2
+RMS_A_F					6
+Variance_A_F				7
+STD_A_F					8
+Range_A_F				15
+
+
+Min_A_V					16
+Max_A_V					17
+RMS_A_V					21
+Varaince_A_V				22
+Range_A_V				30
+
+
+Min_A_L					31
+RMS_A_L					36
+Variance_A_L				37
+Range_A_L				45
+
+
+Energy	       _A_F  	_A_V	_A_L   (154, 155, 156)	 Mean of these 3 (AAE)
+
+
+size_of_walk = 1.5 * size of fog
+
+Model Used: Random Forest Classifier
+Accuracy_Score: 0.7726
+
+If features are normalized:-
+
+		Precision: 0.96136
+		Recall: 0.78634
+		F1-score: 0.8651
+
+
+If features are not normalized:-
+		
+		Precision: 0.95054
+		Recall: 0.79252
+		F1-score: 0.866437
+
+-----------------------------------------------------------------------------------------------------------
+
+Model - 4:
+
+Features:
+
+Min_A_F					1
+Max_A_F					2
+RMS_A_F					6
+Variance_A_F				7
+STD_A_F					8
+Kurtosis_A_F				9
+Skewness_A_F				10
+Range_A_F				15
+
+
+
+Min_A_V					16
+Max_A_V					17
+RMS_A_V					21
+Varaince_A_V				22
+STD_A_V					23
+Kurtosis_A_V				24		
+Range_A_V				30
+
+
+Min_A_L					31
+RMS_A_L					36
+Variance_A_L				37
+Range_A_L				45
+
+
+Energy	       _A_F  	_A_V	_A_L   (154, 155, 156)	 Mean of these 3 (AAE)
+
+
+size_of_walk = 1.5 * size of fog
+
+Model Used: Random Forest Classifier
+Accuracy_Score: 0.774
+
+
+If features are normalized:-
+
+		Precision: 0.9428129
+		Recall: 0.78105
+		F1-score: 0.85434
+
+
+If features are not normalized:-
+		
+		Precision: 0.97527
+		Recall: 0.77901
+		F1-score: 0.86616
+
+----------------------------------------------------------------------------------------------------------------
+
+Model - 5:
+
+Features:
+
+Min_A_F					1
+Max_A_F					2
+RMS_A_F					6
+Variance_A_F				7
+STD_A_F					8
+Kurtosis_A_F				9
+Skewness_A_F				10
+Range_A_F				15
+
+
+
+Min_A_V					16
+Max_A_V					17
+RMS_A_V					21
+Varaince_A_V				22
+STD_A_V					23
+Kurtosis_A_V				24
+Skewness_A_V				25		
+Range_A_V				30
+
+
+Min_A_L					31
+RMS_A_L					36
+Variance_A_L				37
+Range_A_L				45
+
+Power_A_F				145
+Power_A_V			        146
+
+Energy	       _A_F  	_A_V	_A_L   (154, 155, 156)	 Mean of these 3 (AAE)
+
+Entropy_A_F				172
+Entropy_A_V				173
+
+size_of_walk = 1.5 * size of fog
+
+Model Used: Random Forest Classifier
+Accuracy_Score: 0.7839
+
+If features are normalized:-
+
+		Precision: 0.91653
+		Recall: 0.78751
+		F1-score: 0.84714
+
+
+If features are not normalized:-
+		
+		Precision: 0.97527
+		Recall: 0.7848925
+		F1-score: 0.869745
+---------------------------------------------------------------------------------------------------------
+
+Model - 6:
+
+Features:
+
+Min_A_F					1
+Max_A_F					2
+RMS_A_F					6
+Variance_A_F				7
+STD_A_F					8
+Kurtosis_A_F				9
+Skewness_A_F				10
+Range_A_F				15
+
+
+
+Min_A_V					16
+Max_A_V					17
+RMS_A_V					21
+Varaince_A_V				22
+STD_A_V					23
+Kurtosis_A_V				24
+Skewness_A_V				25		
+Range_A_V				30
+
+
+Min_A_L					31
+Max_A_L					32 
+RMS_A_L					36
+Variance_A_L				37
+STD_A_L					38 
+Kurtosis_A_L				39 
+Range_A_L				45
+
+Power_A_F				145
+Power_A_V			        146
+Power_A_L				147 
+
+Energy	       _A_F  	_A_V	_A_L   (154, 155, 156)	 Mean of these 3 (AAE)
+
+Entropy_A_F				172
+Entropy_A_V				173
+Entropy_A_L				174 
+size_of_walk = 1.5 * size of fog
+
+Model Used: Random Forest Classifier
+Accuracy_Score: 0.7805
+
+If features are normalized:-
+
+		Precision: 0.9630
+		Recall: 0.7916137
+		F1-score: 0.86889
+
+
+If features are not normalized:-
+		
+		Precision: 0.9460
+		Recall: 0.7958
+		F1-score: 0.864406
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
